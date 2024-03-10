@@ -10,7 +10,6 @@
   }
   
   body,
-  h1,
   p {
     margin: 0;
   }
@@ -27,14 +26,20 @@
     color: inherit;
   }
   
-  div {
+  div > section {
     display: flex;
-    height: 100vh;
-    align-items: center;
+   
+    margin-bottom: 3rem;
     justify-content: center;
+    
   }
-  div > p {
+  section > div {
     width: 30rem;
     padding-inline: 1rem;
   }
   
+  .center {
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
