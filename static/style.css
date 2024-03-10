@@ -27,13 +27,13 @@
     color: inherit;
   }
   
-  div#app {
+  div {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
   }
-  div#app > p {
+  div > p {
     width: 30rem;
     padding-inline: 1rem;
   }
