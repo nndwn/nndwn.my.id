@@ -1,0 +1,45 @@
+@font-face {
+    font-family: unifont;
+    src: url(/unifont.woff2);
+    font-display: swap;
+  }
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  
+  body,
+  p {
+    margin: 0;
+  }
+  
+  body {
+    color: rgb(233, 233, 233);
+    font-family: unifont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(2, 2, 2);
+  }
+  
+  a {
+    text-decoration: underline;
+    color: inherit;
+  }
+  
+  div > section {
+    display: flex;
+   
+    margin-bottom: 3rem;
+    justify-content: center;
+    
+  }
+  section > div {
+    width: 30rem;
+    padding-inline: 1rem;
+  }
+  
+  .center {
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
